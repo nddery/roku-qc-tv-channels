@@ -1,2 +1,4 @@
-# Radio-Canada en direct sur Roku
-Stream du Radio-Canada (Montréal) pour Roku - [RADIOCAN](https://my.roku.com/add/RADIOCAN)
+# roku-qc-tv-channels
+
+- [Radio Canada (mtl)](https://my.roku.com/add/RADIOCAN)
+- [RDI](https://my.roku.com/add/RDI)

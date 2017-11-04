@@ -1,0 +1,10 @@
+title=RDI
+major_version=1
+minor_version=0
+build_version=1
+mm_icon_focus_hd=pkg:/images/poster.png
+requires_audiometadata=1
+splash_screen_fhd=pkg:/images/splash-FHD.jpg
+splash_color=#000000
+splash_min_time=0
+ui_resolutions=fhd
