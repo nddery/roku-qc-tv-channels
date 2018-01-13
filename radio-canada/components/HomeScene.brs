@@ -5,7 +5,7 @@ end sub
  
 function setVideo() as void
   videoContent = createObject("RoSGNode", "ContentNode")
-  videoContent.url = "http://srclive-lh.akamaihd.net/i/cancbft_1@95875/master.m3u8"
+  videoContent.url = "https://srclive-lh.akamaihd.net/i/cancboft_1@192896/master.m3u8"
   videoContent.title = "Radio Canada (Montréal)"
   videoContent.streamformat = "hls"
  
