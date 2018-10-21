@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component name="HomeScene" extends="Scene" xsi:noNamespaceSchemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
-  <script type = "text/brightscript" uri = "pkg:/components/HomeScene.brs" />
+<component name="HomeScene" extends="Scene">
+  <script type="text/brightscript">
+    <![CDATA[
+    sub init()
+      m.top.setFocus(true)
+      m.getVideoUrlTask = CreateObject("roSGNode", "GetVideoUrlTask")
+      m.getVideoUrlTask.ObserveField("url", "playStream")
+      m.getVideoUrlTask.control = "RUN"
+    end sub
+
+    function playStream()
+      videoContent = createObject("RoSGNode", "ContentNode")
+      videoContent.url = m.getVideoUrlTask.url
+      videoContent.title = "RDI"
+      videoContent.streamformat = "hls"
+      m.video = m.top.findNode("Video")
+      m.video.content = videoContent
+      m.video.control = "play"
+    end function
+    ]]>
+  </script>
+
   <children>
     <Video
-      id = "Video"
-      translation = "[0,0]"
-      width = "1920"
-      height = "1080"
+      id="video"
+      translation="[0,0]"
+      width="1920"
+      height="1280"
     />
   </children>
 </component>
