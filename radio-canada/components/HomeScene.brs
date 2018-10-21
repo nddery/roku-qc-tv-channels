@@ -1,11 +1,18 @@
 sub init()
   m.top.setFocus(true)
-  setVideo()
+  url = getVideoUrl()
+  setVideo(url)
 end sub
+
+function geVideoUrl() as string
+  request = CreateObject("roUrlTransfer")
+  request.SetUrl("https://raw.githubusercontent.com/nddery/roku-qc-tv-channels/master/radio-canada/url.txt")
+  return request.GetToString()
+end function
  
-function setVideo() as void
+function setVideo(url) as void
   videoContent = createObject("RoSGNode", "ContentNode")
-  videoContent.url = "https://srclive-lh.akamaihd.net/i/cancbft_1@95875/master.m3u8"
+  videoContent.url = url
   videoContent.title = "Radio Canada (Montréal)"
   videoContent.streamformat = "hls"
  
