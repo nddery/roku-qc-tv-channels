@@ -12,7 +12,7 @@
     function playStream()
       videoContent = createObject("RoSGNode", "ContentNode")
       videoContent.url = m.getVideoUrlTask.url
-      videoContent.title = "Radio Canada (Montréal)"
+      videoContent.title = "RDI"
       videoContent.streamformat = "hls"
       m.video = m.top.findNode("Video")
       m.video.content = videoContent
