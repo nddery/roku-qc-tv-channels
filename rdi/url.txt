@@ -1,1 +1,1 @@
-https://hdflash_1-lh.akamaihd.net/i/canrdi_1@95877/master.m3u8
+https://rcavlive.akamaized.net/hls/live/704026/canrdi/master.m3u8
