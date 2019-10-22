@@ -1,1 +1,1 @@
-https://dai.google.com/linear/hls/pa/event/ixE_JVvSSCWyxU7eXJoV-A/stream/843c9095-7b49-4850-baba-c0d947350efb:MRN/variant/2ece4f0fc3c18f51580e65a9145ac00a/bandwidth/1980000.m3u8
+https://dai.google.com/linear/hls/pa/event/ixE_JVvSSCWyxU7eXJoV-A/stream/843c9095-7b49-4850-baba-c0d947350efb:MRN/variant/c3af3007f453495923b5e2ee4e773250/bandwidth/2750000.m3u8
