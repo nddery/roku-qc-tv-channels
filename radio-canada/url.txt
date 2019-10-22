@@ -1,1 +1,1 @@
-https://dai.google.com/linear/hls/pa/event/ixE_JVvSSCWyxU7eXJoV-A/stream/843c9095-7b49-4850-baba-c0d947350efb:MRN/variant/d479dd67283f96e3dc940a44ec9268bf/bandwidth/281600.m3u8
+https://rcavlive-dai.akamaized.net/hls/live/696614/cancbftprem/master.m3u8?hdnea=st=1571615319~exp=1571615619~acl=*~hmac=fbb80dab775d30dbccb11b2c5368e9ae915006c3ed6dffe4b24b9149c8b5355d&originpath=/linear/hls/pa/event/ixE_JVvSSCWyxU7eXJoV-A/stream/843c9095-7b49-4850-baba-c0d947350efb:MRN/ma
